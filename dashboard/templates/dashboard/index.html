@@ -1,0 +1,48 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    <div class="mt-20 px-6 py-6 bg-gray-100 rounded-xl", style = "background: #f3ede7;">
+        <h2 class="mb-6 text-2xl justify">My tradable NFT</h2>
+
+        <div class="grid grid-cols-3 gap-3">
+            {% for item in items %}
+                <div>
+                    <a href="{% url 'item:detail' item.id %}">
+                        <div>
+                            <img src="{{ item.image.url }}" class="rounded-t-xl">
+                        </div>
+
+                        <div class="p-6 bg-white rounded-b-xl">
+                            <h2 class="text-2xl">{{ item.name }}</h2>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+
+
+
+        <h2 class="mb-6 mt-6 text-2xl justify">My certificates</h2>
+
+        <div class="grid grid-cols-3 gap-6">
+            {% for item in items %}
+                <div>
+                    <a href="{% url 'item:detail' item.id %}">
+                        <div>
+                            <img src="{{ item.image.url }}", style = "outline-style: solid; outline-width: 0.1cm; 
+                            outline-color: rgb(255, 203, 14)">
+                        </div>
+
+                        <div class="p-6 bg-white ", style = "outline-style: solid; outline-width: 0.1cm; 
+                            outline-color: rgb(255, 203, 14)">
+                            <h2 class="text-2xl">{{ item.name }}</h2>
+                            <h2 class="text-xl">{{ item.coordinates }}</h2>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
