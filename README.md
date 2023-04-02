@@ -1,6 +1,6 @@
 # Bienvenue sur NFTrip !
 
-NFTrip est une application de tokenisation de carte représentant des lieux insolites. Elle vous permet d'acheter et de vendre des cartes NFT (Non-Fungible Tokens) de lieux insolites, tels que des sites historiques, des monuments célèbres, des musées, des lieux de tournage de films, et bien plus encore.
+NFTrip est une application de tokenisation de carte représentant des lieux insolites. Elle vous permet de créer et d'échanger des cartes NFT (Non-Fungible Tokens) de lieux insolites, tels que des sites historiques, des monuments célèbres, des musées, des lieux de tournage de films, et bien plus encore.
 
 Notre application est codée en Python, avec un backend géré en Django. Nous avons développé notre marketplace sur la blockchain Tezos, pour assurer la sécurité et la transparence des transactions.
 
@@ -19,6 +19,8 @@ Notre application est codée en Python, avec un backend géré en Django. Nous a
 - Pour créer un NFT, il suffit de se créer un compte et de remplir le formulaire "New Card". Ce dernier se créera automatiquement dans votre wallet Tezos et s'ajoutera sur la web app dans "browse". 
 - Dans le Dashboard, vous pouvez voir la liste des cartes que vous possédez ainsi que vos certificats et les badges que vous avez gagnés.
 - Dans l'interface "browse", vous pouvez voir l'ensemble des cartes disponibles et appliquer des filtres de recherche. Cliquez sur une carte pour tenter de l'obtenir en contactant le propriétaire via la messagerie de l'application.
+
+Le repo contient une vidéo de démonstration de l'application NFTrip pour la tokenisation de cartes de lieux insolites
 
 ## Smart Contract NFTrip :
 
