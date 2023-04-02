@@ -20,6 +20,7 @@
  """
 
 from time import gmtime, strftime
+from emission_nft import *
 
 class Carte:
     def __init__(self, titre, description, localisation, proprietaire) -> None:
@@ -31,6 +32,7 @@ class Carte:
         self.dernier_echange = "Pas encore eu d'échange"
         self.prix_derniere_transaction = "Pas encore eu de transaction"
         self.photo = "Pas encore de photo"
+        self.nb_de_transactions = 0
         self.proprietaire = proprietaire
         self.commentaires = []
         self.score = 0
@@ -41,9 +43,9 @@ class Carte:
 
     def set_photo(self, lien):
         self.photo = lien
-
-    def tokeniser(self, utilisateur, wallet):
-        pass
+    
+    def tokeniser(self, sc_address):
+        smart_contract_mint_request(self.proprietaire, sc_address, self.titre, self.description, self.photo, self.localisation )
 
     def __str__(self) -> str:
         return f"Carte: {self.titre}, {self.description}"
