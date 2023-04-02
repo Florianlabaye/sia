@@ -20,6 +20,12 @@ Notre application est codée en Python, avec un backend géré en Django. Nous a
 - Dans le Dashboard, vous pouvez voir la liste des cartes que vous possédez ainsi que vos certificats et les badges que vous avez gagnés.
 - Dans l'interface "browse", vous pouvez voir l'ensemble des cartes disponibles et appliquer des filtres de recherche. Cliquez sur une carte pour tenter de l'obtenir en contactant le propriétaire via la messagerie de l'application.
 
+## Smart Contract NFTrip :
+
+Le smart contract NFTrip a été développé avec SmartPy, une plateforme open source pour la programmation de contrats intelligents sur la blockchain Tezos. Nous avons choisi SmartPy pour sa simplicité d'utilisation, sa documentation complète et sa grande communauté de développeurs.
+
+Le smart contract NFTrip hérite du smart contract FA2_lib, un contrat standard pour la gestion des tokens non fongibles (NFT) sur la blockchain Tezos. L'utilisation de FA2.Fa2Nft permet une intégration facile avec d'autres contrats FA2 et offre une compatibilité avec les wallets et les plateformes d'échange prenant en charge le standard FA2.
+
 ## Remerciements
 Nous sommes heureux de vous présenter NFTrip et espérons que vous apprécierez l'expérience de la tokenisation de cartes de lieux insolites. Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter à l'adresse support@nftrip.com. (à venir)
 
