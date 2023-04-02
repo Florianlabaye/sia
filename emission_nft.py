@@ -77,12 +77,10 @@ def smart_contract_mint_request(owner : str, sc_adresse : str,  titre : str, des
     --entrypoint mint --arg '(Pair \" " + owner + "\" {Elt \"description\" " + description + " ; Elt \"localisation\" "+ localisation +"; Elt \"photo_link\" "+ localisation +" ; Elt \"titre\" " + titre +" })' \
     --fee 0.00142 \
     --gas-limit 10600 \
-    --storage-limit 496"
+    --storage-limit 4960"
 
     os.system(request) # executer la commande pour interagir avec le smart contract
 
     return request
 
 a = smart_contract_mint_request("tz1PZY3agTGshV48bcYVbuz88G3mfL8wgm1p", "KT1MArMCMVWohqsuksyAtCCi2TGshDpp4G5F", "plage", "crique romaine", "https://www.envol-espace.fr/photos/barcelone_et_catalogne/la_catalogne_romaine/5762/cirque_romain_tarragone.jpg", "tarragone")
-
-
