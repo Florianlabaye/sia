@@ -26,7 +26,7 @@ Notre application est codée en Python, avec un backend géré en Django. Nous a
 
 - Le repo contient une vidéo de démonstration de l'application NFTrip pour la tokenisation de cartes de lieux insolites (demo-app.mp4)
 - Une autre version de cette vidéo est disponible sur youtube : https://youtu.be/JMRlD3NEC24
-- Pour retrouver la presentation du pitch faite au Hackathon : https://app.pitch.com/app/public/player/efd9e1ba-074b-4a21-8d3a-733fdb957bab/64248176-dfd1-4588-8285-90593fbcff95
+- Pour retrouver la presentation du pitch faite au Hackathon : https://pitch.com/public/efd9e1ba-074b-4a21-8d3a-733fdb957bab/b8b030ff-f04b-4496-b25b-805c2001c2c5
 
 ## Smart Contract NFTrip :
 
