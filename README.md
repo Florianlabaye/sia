@@ -2,6 +2,8 @@
 
 NFTrip est une application de tokenisation de carte représentant des lieux insolites. Elle vous permet de créer et d'échanger des cartes NFT (Non-Fungible Tokens) de lieux insolites, tels que des sites historiques, des monuments célèbres, des musées, des lieux de tournage de films, et bien plus encore.
 
+Ce projet remporte le 3e prix du Hackathon H-W3B, co-organisé par Sia Partners, Tezos et Exaion. qui a eu lieu en avril 2023 à Paris.
+
 Notre application est codée en Python, avec un backend géré en Django. Nous avons développé notre marketplace sur la blockchain Tezos, pour assurer la sécurité et la transparence des transactions.
 
 ## Comment utiliser NFTrip :
@@ -20,7 +22,11 @@ Notre application est codée en Python, avec un backend géré en Django. Nous a
 - Dans le Dashboard, vous pouvez voir la liste des cartes que vous possédez ainsi que vos certificats et les badges que vous avez gagnés.
 - Dans l'interface "browse", vous pouvez voir l'ensemble des cartes disponibles et appliquer des filtres de recherche. Cliquez sur une carte pour tenter de l'obtenir en contactant le propriétaire via la messagerie de l'application.
 
-Le repo contient une vidéo de démonstration de l'application NFTrip pour la tokenisation de cartes de lieux insolites
+## En savoir plus
+
+- Le repo contient une vidéo de démonstration de l'application NFTrip pour la tokenisation de cartes de lieux insolites (demo-app.mp4)
+- Une autre version de cette vidéo est disponible sur youtube : https://youtu.be/JMRlD3NEC24
+- Pour retrouver la presentation du pitch faite au Hackathon : https://app.pitch.com/app/public/player/efd9e1ba-074b-4a21-8d3a-733fdb957bab/64248176-dfd1-4588-8285-90593fbcff95
 
 ## Smart Contract NFTrip :
 
@@ -31,7 +37,7 @@ Le smart contract NFTrip hérite du smart contract FA2.Fa2Nft, un contrat standa
 ## Remerciements
 Nous sommes heureux de vous présenter NFTrip et espérons que vous apprécierez l'expérience de la tokenisation de cartes de lieux insolites. Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter à l'adresse support@nftrip.com. (à venir)
 
-NFTrip est le fruit de notre participation au hackathon HW-3, co-organisé par Sia Partners et Tezos.
+NFTrip est le fruit de notre participation au hackathon H-W3B, co-organisé par Sia Partners, Tezos et Exaion.
 Notre équipe a travaillé avec passion pour développer NFTrip et fournir expérience utilisateur qui inclus les néophytes vis à vis de la cryptosphère. Nous sommes fiers de présenter notre application et de contribuer à l'écosystème de la blockchain.
 
 Nous tenons à remercier Sia Partners et Tezos pour l'organisation de ce hackathon ainsi que tous les coachs qui nous ont aidé pendant ces 3 jours, et l'opportunité de participer à un tel événement passionnant. Nous sommes impatients de participer à d'autres événements de ce type à l'avenir
